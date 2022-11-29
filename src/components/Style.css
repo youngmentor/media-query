@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.App{
+    background-color: gray;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 420px;
+    /* margin: 20px; */
+    padding: 10px;
+}
+.todo_body{
+    margin: 10px;
+    display: flex;
+    gap: 12px;
+}
+.todo_body input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.todo_body button{
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+.middle{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: rgb(226, 226, 234); */
+    border-radius: 15px;
+    border: 2px solid ;
+}
+.middle ul{
+    margin: 30px;
+}
+.middle ul li{
+    padding: 8px;
+    width:200px;
+    height:30px;
+    /* background-color: white; */
+    border: 2px solid black;
+    border-radius: 5px ;
+    margin-top: 10px;
+}
